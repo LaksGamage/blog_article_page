@@ -25,10 +25,20 @@ include("navbar.php");
 <div class="container mt-20 mb-50">
     <div class="mx-90 px-10 border border-black bg-[#fac989ff] justify-center items-center shadow-2xl"> 
 
-    <div class="mb-30 mt-5">
-    <img class="mt-1" src="uploaded.jpg" alt="Article Image" style="max-width:700px;" />
+    <div class="mb-30 mt-5 mx-[10px]">
+    <center><img class="mt-1" src="uploaded.jpg" alt="Article Image" style="max-width:700px;" /></center>
     <h1 class="text-3xl mt-4 font-[gotham]"><strong><?php echo htmlspecialchars($articleName); ?></strong></h1>
     <p class="mt-1 mb-5 text-[19px] text-[#382a22ff] font-[gotham]"><strong>By: <?php echo htmlspecialchars($authorName); ?></strong></p>
+   
+    <div class="flex mb-5 stroke-black border border-gray-500 border rounded-3xl">
+    
+    <a href=""><img class="mx-5" src="images/h.png" width="22px" hight="22px"></a>
+    <a href=""><img class="mx-5" src="images/l.png" width="22px" hight="22px"></a>
+    <a href=""><img class="mx-5" src="images/com.png" width="22px" hight="22px"></a>
+    
+    </div>  
+    
+    
     <p class="mt-1"><?php echo nl2br(htmlspecialchars($articleContent)); ?></p>
     </div>
     </div>
