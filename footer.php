@@ -17,8 +17,7 @@
         <a href="index.php"><img src="images/logo.png"></a>
     </div>
 
-
-    <p class="font-[font-sans]">All right Recieved. <br>
+    <p class="font-[font-sans]">@2025 All right Recieved. <br>
     <?php echo "A Product of $owner"; ?> </p>
 
     <div class="font-[gotham] justify-between text-[18px]">
